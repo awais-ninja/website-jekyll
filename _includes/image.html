@@ -1,0 +1,5 @@
+{% if include.url %}
+<img src="{{ include.url }}" alt="{{ include.alt }}" />
+{% else %}
+<h1>Provide the URL prop in include partial</h1>
+{% endif %}

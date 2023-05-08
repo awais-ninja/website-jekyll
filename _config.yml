@@ -1,0 +1,24 @@
+title: Mirza Awais
+email: awais.brainloggers@gmail.com
+phone: +92 304 9978288
+phone: 
+address: House 199, Sahiwal
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+ input: GFM
+
+sass:
+ sass_dir: static/styles
+
+exclude:
+ - Changelog.md
+ - CNAME
+ - Gemfile
+ - Gemfile.lock
+ - LICENSE
+ - README.md
+ - screenshot.png
+ - docs/
